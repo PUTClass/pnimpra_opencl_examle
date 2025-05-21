@@ -38,7 +38,7 @@ int main()
     try {
         cv::Mat image;
         // load image
-        image = cv::imread("./resources/messor2.jpg", cv::IMREAD_COLOR);
+        image = cv::imread("../../resources/messor2.jpg", cv::IMREAD_COLOR);
         //        cv::GaussianBlur( image, image, cv::Size( 21, 21 ), 5, 5 );
         cv::Mat gray;
         // Convert the image to grayscale
